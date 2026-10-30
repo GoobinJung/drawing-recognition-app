@@ -1,0 +1,499 @@
+{
+  "split": "test",
+  "model_epoch": 6,
+  "total_images": 1500,
+  "correct_predictions": 1427,
+  "accuracy": 0.9513333333333334,
+  "top3_accuracy": 0.9946666666666667,
+  "class_names": [
+    "cat",
+    "car",
+    "tree",
+    "umbrella",
+    "clock"
+  ],
+  "confusion_matrix": [
+    [
+      276,
+      16,
+      5,
+      3,
+      0
+    ],
+    [
+      10,
+      289,
+      0,
+      1,
+      0
+    ],
+    [
+      9,
+      5,
+      277,
+      9,
+      0
+    ],
+    [
+      4,
+      1,
+      6,
+      288,
+      1
+    ],
+    [
+      1,
+      2,
+      0,
+      0,
+      297
+    ]
+  ],
+  "per_class_recall": {
+    "cat": 0.92,
+    "car": 0.9633333333333334,
+    "tree": 0.9233333333333333,
+    "umbrella": 0.96,
+    "clock": 0.99
+  },
+  "mistakes": [
+    {
+      "sample_index": 0,
+      "actual": "tree",
+      "predicted": "cat",
+      "confidence": 0.6224805116653442
+    },
+    {
+      "sample_index": 2,
+      "actual": "car",
+      "predicted": "cat",
+      "confidence": 0.969673216342926
+    },
+    {
+      "sample_index": 33,
+      "actual": "cat",
+      "predicted": "car",
+      "confidence": 0.46276694536209106
+    },
+    {
+      "sample_index": 35,
+      "actual": "tree",
+      "predicted": "cat",
+      "confidence": 0.9463143348693848
+    },
+    {
+      "sample_index": 108,
+      "actual": "cat",
+      "predicted": "umbrella",
+      "confidence": 0.7027749419212341
+    },
+    {
+      "sample_index": 150,
+      "actual": "cat",
+      "predicted": "car",
+      "confidence": 0.7177643775939941
+    },
+    {
+      "sample_index": 161,
+      "actual": "umbrella",
+      "predicted": "cat",
+      "confidence": 0.7462331056594849
+    },
+    {
+      "sample_index": 163,
+      "actual": "tree",
+      "predicted": "cat",
+      "confidence": 0.7612345218658447
+    },
+    {
+      "sample_index": 214,
+      "actual": "car",
+      "predicted": "cat",
+      "confidence": 0.5993139147758484
+    },
+    {
+      "sample_index": 236,
+      "actual": "clock",
+      "predicted": "cat",
+      "confidence": 0.5544343590736389
+    },
+    {
+      "sample_index": 249,
+      "actual": "tree",
+      "predicted": "car",
+      "confidence": 0.7752199769020081
+    },
+    {
+      "sample_index": 259,
+      "actual": "cat",
+      "predicted": "car",
+      "confidence": 0.7537732124328613
+    },
+    {
+      "sample_index": 260,
+      "actual": "tree",
+      "predicted": "cat",
+      "confidence": 0.5359898209571838
+    },
+    {
+      "sample_index": 294,
+      "actual": "tree",
+      "predicted": "cat",
+      "confidence": 0.7006047368049622
+    },
+    {
+      "sample_index": 322,
+      "actual": "cat",
+      "predicted": "car",
+      "confidence": 0.6687253713607788
+    },
+    {
+      "sample_index": 344,
+      "actual": "cat",
+      "predicted": "car",
+      "confidence": 0.7123948931694031
+    },
+    {
+      "sample_index": 375,
+      "actual": "car",
+      "predicted": "cat",
+      "confidence": 0.6362076997756958
+    },
+    {
+      "sample_index": 384,
+      "actual": "tree",
+      "predicted": "umbrella",
+      "confidence": 0.8701950311660767
+    },
+    {
+      "sample_index": 385,
+      "actual": "cat",
+      "predicted": "tree",
+      "confidence": 0.4853953421115875
+    },
+    {
+      "sample_index": 387,
+      "actual": "umbrella",
+      "predicted": "tree",
+      "confidence": 0.9213840961456299
+    },
+    {
+      "sample_index": 430,
+      "actual": "car",
+      "predicted": "cat",
+      "confidence": 0.8018129467964172
+    },
+    {
+      "sample_index": 446,
+      "actual": "tree",
+      "predicted": "umbrella",
+      "confidence": 0.5362185835838318
+    },
+    {
+      "sample_index": 450,
+      "actual": "tree",
+      "predicted": "umbrella",
+      "confidence": 0.5408667325973511
+    },
+    {
+      "sample_index": 466,
+      "actual": "cat",
+      "predicted": "car",
+      "confidence": 0.7900483012199402
+    },
+    {
+      "sample_index": 477,
+      "actual": "cat",
+      "predicted": "car",
+      "confidence": 0.5320928692817688
+    },
+    {
+      "sample_index": 480,
+      "actual": "tree",
+      "predicted": "cat",
+      "confidence": 0.7348718643188477
+    },
+    {
+      "sample_index": 504,
+      "actual": "cat",
+      "predicted": "car",
+      "confidence": 0.7500879764556885
+    },
+    {
+      "sample_index": 558,
+      "actual": "cat",
+      "predicted": "car",
+      "confidence": 0.5602806210517883
+    },
+    {
+      "sample_index": 560,
+      "actual": "cat",
+      "predicted": "tree",
+      "confidence": 0.671021044254303
+    },
+    {
+      "sample_index": 561,
+      "actual": "cat",
+      "predicted": "tree",
+      "confidence": 0.8375104665756226
+    },
+    {
+      "sample_index": 572,
+      "actual": "tree",
+      "predicted": "car",
+      "confidence": 0.5238850712776184
+    },
+    {
+      "sample_index": 589,
+      "actual": "cat",
+      "predicted": "car",
+      "confidence": 0.5253911018371582
+    },
+    {
+      "sample_index": 612,
+      "actual": "tree",
+      "predicted": "umbrella",
+      "confidence": 0.6156368255615234
+    },
+    {
+      "sample_index": 646,
+      "actual": "cat",
+      "predicted": "car",
+      "confidence": 0.7770176529884338
+    },
+    {
+      "sample_index": 714,
+      "actual": "tree",
+      "predicted": "car",
+      "confidence": 0.9499133825302124
+    },
+    {
+      "sample_index": 715,
+      "actual": "cat",
+      "predicted": "car",
+      "confidence": 0.966793954372406
+    },
+    {
+      "sample_index": 717,
+      "actual": "cat",
+      "predicted": "car",
+      "confidence": 0.7742627263069153
+    },
+    {
+      "sample_index": 724,
+      "actual": "tree",
+      "predicted": "cat",
+      "confidence": 0.5681830644607544
+    },
+    {
+      "sample_index": 727,
+      "actual": "umbrella",
+      "predicted": "cat",
+      "confidence": 0.7976422905921936
+    },
+    {
+      "sample_index": 745,
+      "actual": "umbrella",
+      "predicted": "clock",
+      "confidence": 0.389834463596344
+    },
+    {
+      "sample_index": 749,
+      "actual": "cat",
+      "predicted": "tree",
+      "confidence": 0.8478727340698242
+    },
+    {
+      "sample_index": 751,
+      "actual": "tree",
+      "predicted": "car",
+      "confidence": 0.5679056644439697
+    },
+    {
+      "sample_index": 786,
+      "actual": "tree",
+      "predicted": "umbrella",
+      "confidence": 0.7290497422218323
+    },
+    {
+      "sample_index": 826,
+      "actual": "clock",
+      "predicted": "car",
+      "confidence": 0.7649132013320923
+    },
+    {
+      "sample_index": 850,
+      "actual": "car",
+      "predicted": "cat",
+      "confidence": 0.9604839086532593
+    },
+    {
+      "sample_index": 869,
+      "actual": "cat",
+      "predicted": "umbrella",
+      "confidence": 0.5898179411888123
+    },
+    {
+      "sample_index": 934,
+      "actual": "umbrella",
+      "predicted": "tree",
+      "confidence": 0.5145466327667236
+    },
+    {
+      "sample_index": 952,
+      "actual": "tree",
+      "predicted": "umbrella",
+      "confidence": 0.979296088218689
+    },
+    {
+      "sample_index": 1000,
+      "actual": "car",
+      "predicted": "umbrella",
+      "confidence": 0.6629847288131714
+    },
+    {
+      "sample_index": 1020,
+      "actual": "car",
+      "predicted": "cat",
+      "confidence": 0.508802056312561
+    },
+    {
+      "sample_index": 1030,
+      "actual": "clock",
+      "predicted": "car",
+      "confidence": 0.5572769641876221
+    },
+    {
+      "sample_index": 1044,
+      "actual": "tree",
+      "predicted": "car",
+      "confidence": 0.40048179030418396
+    },
+    {
+      "sample_index": 1095,
+      "actual": "car",
+      "predicted": "cat",
+      "confidence": 0.49124082922935486
+    },
+    {
+      "sample_index": 1110,
+      "actual": "tree",
+      "predicted": "cat",
+      "confidence": 0.561922013759613
+    },
+    {
+      "sample_index": 1159,
+      "actual": "umbrella",
+      "predicted": "cat",
+      "confidence": 0.9538854360580444
+    },
+    {
+      "sample_index": 1164,
+      "actual": "car",
+      "predicted": "cat",
+      "confidence": 0.9279588460922241
+    },
+    {
+      "sample_index": 1187,
+      "actual": "cat",
+      "predicted": "car",
+      "confidence": 0.5501493811607361
+    },
+    {
+      "sample_index": 1203,
+      "actual": "umbrella",
+      "predicted": "tree",
+      "confidence": 0.6938713788986206
+    },
+    {
+      "sample_index": 1210,
+      "actual": "tree",
+      "predicted": "umbrella",
+      "confidence": 0.967631995677948
+    },
+    {
+      "sample_index": 1232,
+      "actual": "umbrella",
+      "predicted": "tree",
+      "confidence": 0.7074545621871948
+    },
+    {
+      "sample_index": 1233,
+      "actual": "cat",
+      "predicted": "car",
+      "confidence": 0.5610681772232056
+    },
+    {
+      "sample_index": 1238,
+      "actual": "cat",
+      "predicted": "umbrella",
+      "confidence": 0.6511250734329224
+    },
+    {
+      "sample_index": 1281,
+      "actual": "car",
+      "predicted": "cat",
+      "confidence": 0.5959237813949585
+    },
+    {
+      "sample_index": 1293,
+      "actual": "car",
+      "predicted": "cat",
+      "confidence": 0.6312751770019531
+    },
+    {
+      "sample_index": 1296,
+      "actual": "umbrella",
+      "predicted": "tree",
+      "confidence": 0.7263069748878479
+    },
+    {
+      "sample_index": 1308,
+      "actual": "tree",
+      "predicted": "umbrella",
+      "confidence": 0.9904823303222656
+    },
+    {
+      "sample_index": 1342,
+      "actual": "tree",
+      "predicted": "cat",
+      "confidence": 0.833870530128479
+    },
+    {
+      "sample_index": 1344,
+      "actual": "umbrella",
+      "predicted": "tree",
+      "confidence": 0.6909977793693542
+    },
+    {
+      "sample_index": 1396,
+      "actual": "umbrella",
+      "predicted": "cat",
+      "confidence": 0.9531762003898621
+    },
+    {
+      "sample_index": 1449,
+      "actual": "cat",
+      "predicted": "tree",
+      "confidence": 0.5045869946479797
+    },
+    {
+      "sample_index": 1467,
+      "actual": "cat",
+      "predicted": "car",
+      "confidence": 0.6816908121109009
+    },
+    {
+      "sample_index": 1479,
+      "actual": "umbrella",
+      "predicted": "car",
+      "confidence": 0.9152680039405823
+    },
+    {
+      "sample_index": 1485,
+      "actual": "tree",
+      "predicted": "umbrella",
+      "confidence": 0.6442386507987976
+    }
+  ]
+}
