@@ -1,0 +1,666 @@
+{
+  "schema_version": 1,
+  "recorded_on": "2026-11-05",
+  "evaluation_type": "manual browser-app drawing evaluation",
+  "evidence_method": "Visual transcription of the 25 screenshots supplied by the user; the model was not rerun during this analysis.",
+  "evidence_directory": "manual_drawings",
+  "trial_order_note": "Trial numbers are assigned from filenames, not verified capture timestamps.",
+  "confidence_note": "Percentages are the rounded one-decimal values shown in the screenshots. They are model scores, not calibrated probabilities.",
+  "summary": {
+    "total": 25,
+    "top1_correct": 25,
+    "top1_accuracy_percent": 100,
+    "top3_correct": 25,
+    "top3_accuracy_percent": 100,
+    "mean_displayed_top1_confidence_percent": 80.71
+  },
+  "class_order": [
+    "cat",
+    "car",
+    "tree",
+    "umbrella",
+    "clock"
+  ],
+  "confusion_matrix": [
+    [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      5
+    ]
+  ],
+  "per_class": [
+    {
+      "class_name": "cat",
+      "total": 5,
+      "top1_correct": 5,
+      "top3_correct": 5,
+      "mean_displayed_top1_confidence_percent": 64.78,
+      "min_displayed_top1_confidence_percent": 55.8,
+      "max_displayed_top1_confidence_percent": 78.4
+    },
+    {
+      "class_name": "car",
+      "total": 5,
+      "top1_correct": 5,
+      "top3_correct": 5,
+      "mean_displayed_top1_confidence_percent": 58.9,
+      "min_displayed_top1_confidence_percent": 47.2,
+      "max_displayed_top1_confidence_percent": 83.7
+    },
+    {
+      "class_name": "tree",
+      "total": 5,
+      "top1_correct": 5,
+      "top3_correct": 5,
+      "mean_displayed_top1_confidence_percent": 90.54,
+      "min_displayed_top1_confidence_percent": 83.7,
+      "max_displayed_top1_confidence_percent": 98.3
+    },
+    {
+      "class_name": "umbrella",
+      "total": 5,
+      "top1_correct": 5,
+      "top3_correct": 5,
+      "mean_displayed_top1_confidence_percent": 92.14,
+      "min_displayed_top1_confidence_percent": 83.3,
+      "max_displayed_top1_confidence_percent": 97.8
+    },
+    {
+      "class_name": "clock",
+      "total": 5,
+      "top1_correct": 5,
+      "top3_correct": 5,
+      "mean_displayed_top1_confidence_percent": 97.2,
+      "min_displayed_top1_confidence_percent": 90.8,
+      "max_displayed_top1_confidence_percent": 99.7
+    }
+  ],
+  "limitations": [
+    "Only 25 supplied drawings, with five per category, were evaluated.",
+    "Several drawings have similar shapes and styles; the sample does not establish performance across different users or arbitrary drawings.",
+    "Only the five supported categories were tested; out-of-category rejection was not evaluated.",
+    "These results are separate from the previously reported 1500-image held-out Quick, Draw! test."
+  ],
+  "samples": [
+    {
+      "sample_id": "cat_1",
+      "actual": "cat",
+      "trial_number_from_filename": 1,
+      "source_file": "cat1.png",
+      "top_three": [
+        {
+          "label": "cat",
+          "confidence_percent": 62.8
+        },
+        {
+          "label": "tree",
+          "confidence_percent": 25.4
+        },
+        {
+          "label": "umbrella",
+          "confidence_percent": 7.1
+        }
+      ],
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "sample_id": "cat_2",
+      "actual": "cat",
+      "trial_number_from_filename": 2,
+      "source_file": "cat2.png",
+      "top_three": [
+        {
+          "label": "cat",
+          "confidence_percent": 78.4
+        },
+        {
+          "label": "tree",
+          "confidence_percent": 14.4
+        },
+        {
+          "label": "car",
+          "confidence_percent": 4.1
+        }
+      ],
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "sample_id": "cat_3",
+      "actual": "cat",
+      "trial_number_from_filename": 3,
+      "source_file": "cat3.png",
+      "top_three": [
+        {
+          "label": "cat",
+          "confidence_percent": 62.2
+        },
+        {
+          "label": "tree",
+          "confidence_percent": 22.3
+        },
+        {
+          "label": "umbrella",
+          "confidence_percent": 8.1
+        }
+      ],
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "sample_id": "cat_4",
+      "actual": "cat",
+      "trial_number_from_filename": 4,
+      "source_file": "cat4.png",
+      "top_three": [
+        {
+          "label": "cat",
+          "confidence_percent": 55.8
+        },
+        {
+          "label": "tree",
+          "confidence_percent": 21.6
+        },
+        {
+          "label": "car",
+          "confidence_percent": 12.6
+        }
+      ],
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "sample_id": "cat_5",
+      "actual": "cat",
+      "trial_number_from_filename": 5,
+      "source_file": "cat5.png",
+      "top_three": [
+        {
+          "label": "cat",
+          "confidence_percent": 64.7
+        },
+        {
+          "label": "car",
+          "confidence_percent": 20.3
+        },
+        {
+          "label": "tree",
+          "confidence_percent": 11.8
+        }
+      ],
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "sample_id": "car_1",
+      "actual": "car",
+      "trial_number_from_filename": 1,
+      "source_file": "car1.png",
+      "top_three": [
+        {
+          "label": "car",
+          "confidence_percent": 60.4
+        },
+        {
+          "label": "cat",
+          "confidence_percent": 18.3
+        },
+        {
+          "label": "umbrella",
+          "confidence_percent": 17.5
+        }
+      ],
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "sample_id": "car_2",
+      "actual": "car",
+      "trial_number_from_filename": 2,
+      "source_file": "car2.png",
+      "top_three": [
+        {
+          "label": "car",
+          "confidence_percent": 49.8
+        },
+        {
+          "label": "umbrella",
+          "confidence_percent": 27.8
+        },
+        {
+          "label": "cat",
+          "confidence_percent": 14.8
+        }
+      ],
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "sample_id": "car_3",
+      "actual": "car",
+      "trial_number_from_filename": 3,
+      "source_file": "car3.png",
+      "top_three": [
+        {
+          "label": "car",
+          "confidence_percent": 83.7
+        },
+        {
+          "label": "umbrella",
+          "confidence_percent": 6.2
+        },
+        {
+          "label": "cat",
+          "confidence_percent": 5.9
+        }
+      ],
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "sample_id": "car_4",
+      "actual": "car",
+      "trial_number_from_filename": 4,
+      "source_file": "car4.png",
+      "top_three": [
+        {
+          "label": "car",
+          "confidence_percent": 47.2
+        },
+        {
+          "label": "cat",
+          "confidence_percent": 30.2
+        },
+        {
+          "label": "umbrella",
+          "confidence_percent": 15.2
+        }
+      ],
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "sample_id": "car_5",
+      "actual": "car",
+      "trial_number_from_filename": 5,
+      "source_file": "car5.png",
+      "top_three": [
+        {
+          "label": "car",
+          "confidence_percent": 53.4
+        },
+        {
+          "label": "cat",
+          "confidence_percent": 21.1
+        },
+        {
+          "label": "umbrella",
+          "confidence_percent": 18.1
+        }
+      ],
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "sample_id": "tree_1",
+      "actual": "tree",
+      "trial_number_from_filename": 1,
+      "source_file": "tree1.png",
+      "top_three": [
+        {
+          "label": "tree",
+          "confidence_percent": 89.5
+        },
+        {
+          "label": "cat",
+          "confidence_percent": 6.5
+        },
+        {
+          "label": "umbrella",
+          "confidence_percent": 3.2
+        }
+      ],
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "sample_id": "tree_2",
+      "actual": "tree",
+      "trial_number_from_filename": 2,
+      "source_file": "tree2.png",
+      "top_three": [
+        {
+          "label": "tree",
+          "confidence_percent": 91.9
+        },
+        {
+          "label": "umbrella",
+          "confidence_percent": 5.9
+        },
+        {
+          "label": "cat",
+          "confidence_percent": 1.9
+        }
+      ],
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "sample_id": "tree_3",
+      "actual": "tree",
+      "trial_number_from_filename": 3,
+      "source_file": "tree3.png",
+      "top_three": [
+        {
+          "label": "tree",
+          "confidence_percent": 89.3
+        },
+        {
+          "label": "cat",
+          "confidence_percent": 5.5
+        },
+        {
+          "label": "umbrella",
+          "confidence_percent": 4.5
+        }
+      ],
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "sample_id": "tree_4",
+      "actual": "tree",
+      "trial_number_from_filename": 4,
+      "source_file": "tree4.png",
+      "top_three": [
+        {
+          "label": "tree",
+          "confidence_percent": 83.7
+        },
+        {
+          "label": "umbrella",
+          "confidence_percent": 10.4
+        },
+        {
+          "label": "cat",
+          "confidence_percent": 5.7
+        }
+      ],
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "sample_id": "tree_5",
+      "actual": "tree",
+      "trial_number_from_filename": 5,
+      "source_file": "tree5.png",
+      "top_three": [
+        {
+          "label": "tree",
+          "confidence_percent": 98.3
+        },
+        {
+          "label": "umbrella",
+          "confidence_percent": 1.1
+        },
+        {
+          "label": "cat",
+          "confidence_percent": 0.5
+        }
+      ],
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "sample_id": "umbrella_1",
+      "actual": "umbrella",
+      "trial_number_from_filename": 1,
+      "source_file": "umbrella .png",
+      "top_three": [
+        {
+          "label": "umbrella",
+          "confidence_percent": 97.8
+        },
+        {
+          "label": "tree",
+          "confidence_percent": 1.4
+        },
+        {
+          "label": "clock",
+          "confidence_percent": 0.6
+        }
+      ],
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "sample_id": "umbrella_2",
+      "actual": "umbrella",
+      "trial_number_from_filename": 2,
+      "source_file": "umbrella 2.png",
+      "top_three": [
+        {
+          "label": "umbrella",
+          "confidence_percent": 83.3
+        },
+        {
+          "label": "tree",
+          "confidence_percent": 11.8
+        },
+        {
+          "label": "cat",
+          "confidence_percent": 4.2
+        }
+      ],
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "sample_id": "umbrella_3",
+      "actual": "umbrella",
+      "trial_number_from_filename": 3,
+      "source_file": "umbrella 3.png",
+      "top_three": [
+        {
+          "label": "umbrella",
+          "confidence_percent": 86.6
+        },
+        {
+          "label": "tree",
+          "confidence_percent": 10.6
+        },
+        {
+          "label": "cat",
+          "confidence_percent": 2.3
+        }
+      ],
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "sample_id": "umbrella_4",
+      "actual": "umbrella",
+      "trial_number_from_filename": 4,
+      "source_file": "umbrella 4.png",
+      "top_three": [
+        {
+          "label": "umbrella",
+          "confidence_percent": 95.9
+        },
+        {
+          "label": "tree",
+          "confidence_percent": 3.4
+        },
+        {
+          "label": "clock",
+          "confidence_percent": 0.4
+        }
+      ],
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "sample_id": "umbrella_5",
+      "actual": "umbrella",
+      "trial_number_from_filename": 5,
+      "source_file": "umbrella 5.png",
+      "top_three": [
+        {
+          "label": "umbrella",
+          "confidence_percent": 97.1
+        },
+        {
+          "label": "tree",
+          "confidence_percent": 2.2
+        },
+        {
+          "label": "clock",
+          "confidence_percent": 0.4
+        }
+      ],
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "sample_id": "clock_1",
+      "actual": "clock",
+      "trial_number_from_filename": 1,
+      "source_file": "Clock.png",
+      "top_three": [
+        {
+          "label": "clock",
+          "confidence_percent": 99.7
+        },
+        {
+          "label": "cat",
+          "confidence_percent": 0.2
+        },
+        {
+          "label": "umbrella",
+          "confidence_percent": 0.1
+        }
+      ],
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "sample_id": "clock_2",
+      "actual": "clock",
+      "trial_number_from_filename": 2,
+      "source_file": "Clock 2.png",
+      "top_three": [
+        {
+          "label": "clock",
+          "confidence_percent": 99.2
+        },
+        {
+          "label": "cat",
+          "confidence_percent": 0.4
+        },
+        {
+          "label": "umbrella",
+          "confidence_percent": 0.4
+        }
+      ],
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "sample_id": "clock_3",
+      "actual": "clock",
+      "trial_number_from_filename": 3,
+      "source_file": "Clock 3.png",
+      "top_three": [
+        {
+          "label": "clock",
+          "confidence_percent": 97
+        },
+        {
+          "label": "umbrella",
+          "confidence_percent": 2.4
+        },
+        {
+          "label": "cat",
+          "confidence_percent": 0.6
+        }
+      ],
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "sample_id": "clock_4",
+      "actual": "clock",
+      "trial_number_from_filename": 4,
+      "source_file": "Clock 4.png",
+      "top_three": [
+        {
+          "label": "clock",
+          "confidence_percent": 90.8
+        },
+        {
+          "label": "umbrella",
+          "confidence_percent": 5.7
+        },
+        {
+          "label": "cat",
+          "confidence_percent": 3.1
+        }
+      ],
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "sample_id": "clock_5",
+      "actual": "clock",
+      "trial_number_from_filename": 5,
+      "source_file": "Clock 5.png",
+      "top_three": [
+        {
+          "label": "clock",
+          "confidence_percent": 99.3
+        },
+        {
+          "label": "cat",
+          "confidence_percent": 0.4
+        },
+        {
+          "label": "umbrella",
+          "confidence_percent": 0.3
+        }
+      ],
+      "top1_correct": true,
+      "top3_correct": true
+    }
+  ]
+}
